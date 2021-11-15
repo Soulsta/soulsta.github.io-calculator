@@ -1,0 +1,97 @@
+
+
+.calc-button   {
+    font-family: 'Rock Salt', cursive;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  body          {
+    background:whitesmoke;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  
+  /* The outside border mainly color  part */
+  .calculator .formstyle  {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 8px solid plum;
+    border-radius: 5px;
+  }
+       /*the main buttons */
+  .calc-button  {
+    background: rgba(221, 183, 183, 0.5); 
+    border: 1px solid #111; 
+    padding: 20 px;
+    color:rgb(96, 1, 160); 
+    border-radius: 5px; 
+    font-size: 22px; 
+    cursor: pointer; 
+  }
+/*Kaur knowledge */
+  .calculator input   {
+    
+    background: none;
+    border: none;
+    box-shadow: none;
+    outline: none;
+  
+    padding: 10px;
+    width: 100%;
+    border-bottom: 2px solid #111;
+    color: #333;
+    text-align: right;
+    font-size: 40px;
+    border-radius: 0;
+  }
+
+
+  .calculator-buttons {
+    
+    padding: 20px;
+  
+    /* the grid stuff! */
+    display: grid;
+  
+    /*the 4 columns */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .calculator-buttons {
+
+  
+    /* (kaur stuff idk)overall grid gap */
+    grid-gap: 15px;
+  }
+
+
+  /* span across 3 columns (more kaur stuff idk)*/
+.is-zero,
+.is-clear   {
+  grid-column: span 3;
+}
+
+/* clear button */
+.is-clear   {
+  background:plum;
+}
+/*equal button*/
+.is-equals {
+    background:plum;
+  }
+
+
+ 
+
+.textview{
+    width: 400px;
+    margin: 5px;
+    font-size: 20px;
+    padding: 5px;
+    background-color: purple  ;
+    }	
